@@ -3,21 +3,21 @@
 
 Comando para desplegar contenedor
 
-```
+
 docker-compose up -d
-```
-
-Una vez desplegado el contenedor, hacer clik derecho sobre la imagen adminer pulsar Open in Browser
 
 
-```
+Abrimos el contenedor
+
+
+
 usuario: root
 contraseña: example
-```
 
-_archivo yml_
 
-```
+archivo yml
+
+
 
 version: '3.1'
 
@@ -34,8 +34,3 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
-
-```
-_Archivos de referencia_
-
-* [YML](https://hub.docker.com/_/adminer) - Usado para generar yml
