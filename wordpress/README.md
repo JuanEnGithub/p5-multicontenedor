@@ -1,17 +1,17 @@
 
-### Wordpress🔧
+### Wordpress
 
-Comando para desplegar contenedor
+Creamos el contenedor
 
-```
+
 docker-compose up -d
-```
 
-Una vez desplegado el contenedor, hacer clik derecho sobre la imagen wordpress y pulsar Open in Browser
 
-_archivo yml_
+Ejecutamos el contenedor y lso abrimos
 
-```
+
+docker-compose:
+
 version: '3.1'
 services:
   wordpress:
@@ -41,9 +41,3 @@ services:
 volumes:
     wordpress_data:
     mariadb_data:
-
-```
-_Archivos de referencia_
-
-* [YML](https://josedom24.github.io/curso_docker_2022/sesion4/wordpress.html) - Usado para generar yml
-
