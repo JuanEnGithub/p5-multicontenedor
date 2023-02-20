@@ -9,8 +9,8 @@ docker-compose up -d
 
 Abrimos el contenedor
 
-archivo yml
 
+docker-compose:
 
 version: '3.1'
 services:
