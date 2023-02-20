@@ -1,17 +1,17 @@
 
-### Guestbook🔧
+### Guestbook
 
-Comando para desplegar contenedor
+Creamos imagen
 
-```
+
 docker-compose up -d
-```
 
-Una vez desplegado el contenedor, hacer clik derecho sobre la imagen guestbook-compose y pulsar Open in Browser
 
-_archivo yml_
+Abrimos el contenedor
 
-```
+archivo yml
+
+
 version: '3.1'
 services:
   app:
@@ -24,9 +24,3 @@ services:
     container_name: redis-compose
     image: redis
     restart: always
-```
-
-
-_Archivos de referencia_
-
-* [YML](https://josedom24.github.io/curso_docker_2022/sesion4/guestbook.html) - Usado para generar yml
