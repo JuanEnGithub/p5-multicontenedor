@@ -1,5 +1,5 @@
 
-### Adminer 🔧
+### Adminer
 
 Comando para desplegar contenedor
 
