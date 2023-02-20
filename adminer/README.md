@@ -15,9 +15,7 @@ usuario: root
 contraseña: example
 
 
-archivo yml
-
-
+docker-compose:
 
 version: '3.1'
 
